@@ -1,0 +1,110 @@
+#title_of_website {
+    margin-top: 0vmin;
+    height: 60px;
+    width: 100vw;
+    background-color: #0a73ec56;
+}
+
+.background {
+    background-color: #92662365;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.bottom #color_blue {
+    background-color: #00f5fd;
+    display: inline;
+}
+
+
+/* #bottoms{ */
+
+
+/* } */
+
+#self_photo {
+    /* display: inline-block; */
+    /* margin-left: 20vmin; */
+    height: 60vmin;
+    width: 40vmin;
+    /* background-size: contain; */
+}
+
+.photo_location {
+    margin-left: 20vmin;
+    margin-top: 10vmin;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+
+/* .photo_size img { */
+
+
+/* width: 100%; */
+
+
+/* height: 100%; */
+
+
+/* width: 60vmin; */
+
+
+/* height: 96vmin; */
+
+
+/* } */
+
+.font_type {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.title_name {
+    font-family: "Roboto,微軟正黑體";
+    font-size: 40px;
+    font-weight: 700;
+    margin: auto;
+    height: 60px;
+    text-align: center;
+    /* width: 30vw; */
+}
+
+.title_element {
+    margin-top: 0vmin;
+    height: 60px;
+    /* width: 30vw; */
+}
+
+#box {
+    margin: auto;
+    margin-top: 1vmin;
+    height: 90vmin;
+    width: 46vmin;
+    background-color: #FFFFFF;
+    padding-top: 1vmin;
+    border-radius: 4vmin;
+    padding-bottom: 8vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+    /* height: 800px; */
+    /* width: 450px; */
+    /* background-color: #0000FF; */
+    /* padding: 10px; */
+    /* border-radius: 20px; */
+}
+
+.outside {
+    margin: auto;
+    margin-top: 1vmin;
+    height: 100vmin;
+    width: 48vmin;
+    background-color: #ecb1ac;
+    border-radius: 4vmin;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+}
