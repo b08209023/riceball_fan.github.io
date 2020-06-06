@@ -58,8 +58,14 @@
 
 /* } */
 
+.font_type_title_bottom {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+}
+
 .font_type {
     font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
 }
 
 .title_name {
