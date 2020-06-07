@@ -118,6 +118,15 @@ a:visited {
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+.video_in_left {
+    margin-left: 10vmin;
+    /* margin-top: 20vmin; */
+    height: 40vmin;
+    width: 60vmin;
+    /* display: inline-block; */
+    /* border-radius: 5vmin; */
+}
+
 .photo_in_left {
     margin-left: 10vmin;
     /* margin-top: 20vmin; */
