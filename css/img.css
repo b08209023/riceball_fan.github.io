@@ -1,6 +1,30 @@
+a:link {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+.background {
+    background-color: #ce9d5383;
+    margin: 0px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
 #title_of_website {
     margin-top: 0vmin;
-    height: 60px;
+    /* height: 60px; */
     width: 100%;
     background-color: #92662386;
 }
@@ -13,9 +37,30 @@
     /* display: inline-block; */
 }
 
+#self_article_1 {
+    margin-top: 5vmin;
+    margin-left: 5vmin;
+    display: block;
+}
+
+#self_article_2 {
+    margin-top: 25vmin;
+    margin-left: 4vmin;
+    display: inline-block;
+}
+
+#self_article_3 {
+    vertical-align: top;
+    margin-top: 5vmin;
+    margin-left: 5vmin;
+    display: inline-block;
+}
+
 .photo_article {
+    vertical-align: top;
     margin-left: 0vmin;
-    margin-top: 10vmin;
+    margin-top: 4vmin;
+    margin-bottom: 3vmin;
 }
 
 .display_ib {
@@ -25,7 +70,7 @@
 .self_article {
     vertical-align: top;
     margin-left: 20vmin;
-    margin-top: 15vmin;
+    margin-top: 10vmin;
 }
 
 .self {
@@ -34,12 +79,19 @@
     height: 90vmin;
 }
 
+.atmosfig_home_radar {
+    height: 40vmin;
+    width: 40vmin;
+    border-radius: 3vmin;
+    margin-left: 10vmin;
+}
+
 .article {
     /* position: relative; */
     vertical-align: top;
     margin-top: 0vmin;
     margin-left: 10vmin;
-    width: 90vmin;
+    width: 95vmin;
     display: inline-block;
     font-family: 'Noto Sans TC', sans-serif;
 }
@@ -53,6 +105,13 @@
     border-radius: 5vmin;
 }
 
+.normal_photo {
+    /* margin-left: 10vmin; */
+    height: 40vmin;
+    width: 60vmin;
+    border-radius: 5vmin;
+}
+
 .photo_in_right {
     margin-left: 10vmin;
     /* margin-top: 20vmin; */
@@ -60,14 +119,6 @@
     width: 60vmin;
     display: inline-block;
     border-radius: 5vmin;
-}
-
-.background {
-    background-color: #92662365;
-    margin: 0px;
-    display: inline-block;
-    height: 100%;
-    width: 100%;
 }
 
 .bottom #color_blue {
@@ -127,11 +178,11 @@
 }
 
 .title_name {
-    font-family: "Roboto,微軟正黑體";
+    /* font-family: "Roboto,微軟正黑體"; */
     font-size: 40px;
     font-weight: 700;
     margin: auto;
-    height: 60px;
+    /* height: 60px; */
     text-align: center;
     /* width: 30vw; */
 }
@@ -171,4 +222,31 @@
     padding-bottom: 1vmin;
     padding-left: 1vmin;
     padding-right: 1vmin;
+}
+
+.links_of_profile {
+    height: 5vmin;
+    width: 5vmin;
+    border-radius: 1vmin;
+    vertical-align: top;
+    margin-top: 1vmin;
+    align-items: center;
+}
+
+#ig {
+    background-image: url(../images/ig2.png);
+    background-size: contain;
+    display: inline-block;
+}
+
+#mail {
+    background-image: url(../images/mail.png);
+    background-size: contain;
+    display: inline-block;
+}
+
+#fb {
+    background-image: url(../images/facebook.png);
+    background-size: contain;
+    display: inline-block;
 }
